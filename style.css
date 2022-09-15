@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    /* background-color: #e5e5e5; */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container,
+.watchlist-cont {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 200px;
+    background-image: url(/images/header.jpg);
+    background-size: cover;
+}
+
+
+header div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.with-icon {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto -25px;
+    background-color: #fff;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.with-icon :nth-child(4) {
+    border-left: 1px solid #CDCDCD;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    padding-left: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.icons-clear-search {
+    position: absolute;
+    right: 18%;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 3%;
+    color: #000;
+}
+
+#search-btn {
+    border: none;
+    background-color: inherit;
+    padding-left: 10px;
+}
+
+.search-display2 {
+    color: #000;
+    margin: 40% auto;
+    text-align: center;
+}
+
+.real-display {
+    display: flex;
+    color: #000;
+    margin: 50px auto 50px;
+    gap: 1rem;
+    width: 90%;
+    height: 220px;
+}
+
+#search-display-img {
+    display: inline-block;
+    height: 60px;
+    width: 70px;
+}
+
+.real-display .poster-img {
+    height: 150px;
+    width: 100px;
+}
+
+.display-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#watchlist-btn {
+    background-color: inherit;
+    text-align: center;
+    border: none;
+    margin-left: 5px;
+}
+
+
+.watchlist-movies2 {
+    color: #000;
+    margin: 40% auto;
+    text-align: center;
+}
+
+.watchlist-movies2 h3 {
+    color: #CDCDCD;
+}
+
+.watchlist-movies2 h4:hover, 
+.watchlist-movies2 h4:focus {
+    cursor: pointer;
+}
